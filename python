@@ -1,0 +1,6 @@
+user_input=str(input("Enter a phrase:"))
+phrase=user_input.split()
+a=" "
+for i in phrase:
+    a=a+str(i[0].upper())
+print(a)
